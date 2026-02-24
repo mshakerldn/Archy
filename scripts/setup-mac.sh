@@ -6,7 +6,7 @@
 
 set -e
 
-REPO_URL="https://github.com/farzaa/makesomething.git"
+REPO_URL="https://github.com/filip-pilar/makesomething.git"
 INSTALL_DIR="$HOME/Desktop/make-something"
 
 echo ""
