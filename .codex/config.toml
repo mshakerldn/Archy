@@ -1,0 +1,4 @@
+# hide thinking blocks — beginners don't need to see the agent's internal reasoning
+hide_agent_reasoning = true
+show_raw_agent_reasoning = false
+model_reasoning_summary = "concise"

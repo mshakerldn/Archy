@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# make something
 
-## Getting Started
+build your first app with ai. no coding experience needed. seriously.
 
-First, run the development server:
+## what is this?
+
+this is the starter repo for **make something** — a free, live tutorial where i show you how to build a real app using openai codex (an ai that writes code for you). you watch me build one from scratch, then you go build your own.
+
+this repo is what you'll use to build yours. it comes with everything pre-configured — a framework, a component library, styling, animations — so you can focus on your idea instead of setup. an ai agent lives inside it that helps you build, answers questions, and handles the code.
+
+you just need a laptop, a chatgpt account (free version works), and an idea. if you don't have an idea yet, no worries — the agent will help you think of one.
+
+## who this is for
+
+- complete beginners — zero coding knowledge needed
+- people with ideas who don't know where to start
+- anyone curious about building with ai but hasn't tried it yet
+
+## quick setup
+
+### mac
+
+open Terminal and paste:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bash <(curl -fsSL https://raw.githubusercontent.com/farzaa/makesomething/main/scripts/setup-mac.sh)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### windows
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+open PowerShell and paste:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```powershell
+irm https://raw.githubusercontent.com/farzaa/makesomething/main/scripts/setup-windows.ps1 | iex
+```
 
-## Learn More
+## resume
 
-To learn more about Next.js, take a look at the following resources:
+already set up? open the **make-something** folder on your Desktop and double-click:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **mac:** `run.command`
+- **windows:** `run.bat`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## how it works
 
-## Deploy on Vercel
+once you're set up, the ai agent guides the whole thing. you talk to it in plain english — no code, no jargon.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| command | what it does |
+|---------|-------------|
+| `$start` | brainstorm an idea and start building |
+| `$help` | get unstuck when you're confused |
+| `$debug` | fix problems automatically |
+| `$deploy` | put your app on the internet with a shareable link |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+you describe what you want, the agent builds it, and you see it live in your browser. one feature at a time, until you've got something real you can share.
+
+## what's in the box
+
+this repo comes pre-loaded with:
+
+- [Next.js](https://nextjs.org) — framework
+- [HeroUI](https://heroui.com) — component library (buttons, cards, inputs, navbars, etc.)
+- [Tailwind CSS](https://tailwindcss.com) — styling
+- [Framer Motion](https://motion.dev) — animations
+- [Codex CLI](https://github.com/openai/codex) — the ai agent that builds with you
+
+you don't need to know what any of these are. the agent handles it all.
+
+## livestream attendees
+
+if you joined from a livestream, check the google doc shared during the stream for step-by-step instructions. otherwise, follow the quick setup above.
