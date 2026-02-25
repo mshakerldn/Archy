@@ -1,9 +1,9 @@
 ---
-name: help
+name: imlost
 description: Context-aware help for when someone is stuck, confused, or needs guidance. Reads the conversation and project state to give specific, relevant help.
 ---
 
-# $help — get unstuck
+# $imlost — get unstuck
 
 ## first: figure out what's going on
 
@@ -17,7 +17,7 @@ try to figure out why they called for help before responding. don't just match a
 > "hey welcome! tell me what you want to build — literally anything — and we'll make it together. or type `$start` and i'll walk you through it."
 
 **something is broken:**
-don't wait for them to describe the problem. run through the `$debug` diagnostic flow (dev server → file integrity → imports → lint → build). fix it, then tell them in plain language:
+don't wait for them to describe the problem. run through the `$fixit` diagnostic flow (dev server → file integrity → imports → lint → build). fix it, then tell them in plain language:
 > "found the issue — [simple explanation]. fixed it, check your browser."
 
 **actively building:**
@@ -35,7 +35,7 @@ then figure out what's wrong and fix it or suggest a clear next step.
 > "your app is already live — nice. want to make some changes and update it, or keep adding new stuff?"
 
 **not sure what they need but they seem fine:**
-> "here's what we can do — keep building (just tell me what to add), fix something (`$debug`), or put it on the internet (`$deploy`). what sounds good?"
+> "here's what we can do — keep building (just tell me what to add), fix something (`$fixit`), or put it on the internet (`$deploy`). what sounds good?"
 
 **you genuinely can't tell what they need:**
 don't guess. just check in.

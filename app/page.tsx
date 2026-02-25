@@ -34,8 +34,8 @@ export default function Home() {
         </div>
         {[
           { n: 3, cmd: "$start", label: "to begin building" },
-          { n: 4, cmd: "$help", label: "to get unstuck" },
-          { n: 5, cmd: "$debug", label: "to fix problems" },
+          { n: 4, cmd: "$imlost", label: "to get unstuck" },
+          { n: 5, cmd: "$fixit", label: "to fix problems" },
           { n: 6, cmd: "$deploy", label: "to put it on the internet" },
         ].map((item) => (
           <div key={item.cmd} className="flex items-center gap-3">

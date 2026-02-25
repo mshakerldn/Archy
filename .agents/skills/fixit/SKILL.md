@@ -1,9 +1,9 @@
 ---
-name: debug
+name: fixit
 description: Run health checks and fix problems. Checks if the dev server is running, runs lint and build checks, verifies file integrity, and automatically fixes any issues found.
 ---
 
-# $debug — fix problems
+# $fixit — fix problems
 
 ## before you touch anything
 

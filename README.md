@@ -48,8 +48,8 @@ once you're set up, the ai agent guides the whole thing. you talk to it in plain
 | command | what it does |
 |---------|-------------|
 | `$start` | brainstorm an idea and start building |
-| `$help` | get unstuck when you're confused |
-| `$debug` | fix problems automatically |
+| `$imlost` | get unstuck when you're confused |
+| `$fixit` | fix problems automatically |
 | `$deploy` | put your app on the internet with a shareable link |
 
 you describe what you want, the agent builds it, and you see it live in your browser. one feature at a time, until you've got something real you can share.

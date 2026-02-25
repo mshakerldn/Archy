@@ -96,6 +96,6 @@ choose fonts that match the user's vibe. don't default to the same font every ti
 | command | what it does |
 |---------|-------------|
 | `$start` | begin building |
-| `$help` | get unstuck |
-| `$debug` | fix problems |
+| `$imlost` | get unstuck |
+| `$fixit` | fix problems |
 | `$deploy` | put it on the internet |
