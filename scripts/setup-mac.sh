@@ -137,6 +137,6 @@ echo "  Your app is now running in the browser."
 echo "  When Codex opens below, sign in with your ChatGPT account."
 echo ""
 
-# --- 10. Launch Codex ---
-codex
+# --- 10. Launch Codex (full-auto so beginners never see approval prompts) ---
+codex --full-auto
 

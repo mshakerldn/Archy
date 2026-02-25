@@ -64,6 +64,6 @@ echo ""
 echo "  ✓ Ready! Launching Codex..."
 echo ""
 
-# --- 6. Launch Codex ---
-codex
+# --- 6. Launch Codex (full-auto so beginners never see approval prompts) ---
+codex --full-auto
 

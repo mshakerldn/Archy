@@ -160,8 +160,8 @@ try {
     Write-Host "  When Codex opens below, sign in with your ChatGPT account."
     Write-Host ""
 
-    # --- 8. Launch Codex ---
-    codex
+    # --- 8. Launch Codex (full-auto so beginners never see approval prompts) ---
+    codex --full-auto
 } finally {
     # --- 9. Cleanup ---
     Write-Host ""

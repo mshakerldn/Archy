@@ -59,8 +59,8 @@ try {
     Write-Host "  [OK] Ready! Launching Codex..." -ForegroundColor Green
     Write-Host ""
 
-    # --- 6. Launch Codex ---
-    codex
+    # --- 6. Launch Codex (full-auto so beginners never see approval prompts) ---
+    codex --full-auto
 } finally {
     # --- 7. Cleanup ---
     Write-Host ""
