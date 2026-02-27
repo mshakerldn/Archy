@@ -6,6 +6,17 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* local fallbacks to avoid build-time font downloads */
+:root {
+  --font-geist-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-geist-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+    monospace;
+  --font-manrope: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-space-grotesk: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-bricolage: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-instrument-serif: Georgia, "Times New Roman", serif;
+}
+
 @theme {
   --font-sans: var(--font-geist-sans), system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), monospace;
